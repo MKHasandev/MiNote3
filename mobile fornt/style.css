@@ -1,0 +1,150 @@
+.front-side {
+	width: 252px;
+	height: 443px;
+	top: 38px;
+	left: 124px;
+	border: solid 15px #090856;
+	position: relative;
+	border-bottom-width: 40px;
+	border-top-width: 40px;
+	border-radius: 36px;
+	box-shadow: 0px 3px 8px 0px;
+}
+.front-side:before{
+	content: '';
+	width: 60px;
+	height: 5px;
+	position: absolute;
+	top: -21px;
+	left: 36%;
+	background: #333;
+	border-radius: 10px;
+}
+.camera{
+	content: '';
+	width:10px;
+	height: 10px;
+	top: -23px;
+	left: 35px;
+	border-radius: 50%;
+	position: absolute;
+	background: #333;
+	float: left;
+}
+.sensor{
+	content: '';
+	width: 6px;
+	height: 6px;
+	top: -21px;
+	left: 60px;
+	border-radius: 50%;
+	position: absolute;
+	background: #333;
+	float: left;
+}
+.screen img{
+	height: 443px;
+	width: 254px;
+	padding: 0px;
+	margin: 0px;
+	border-radius: 1px black;
+	box-sizing: border-size;
+}
+.front-side:after{
+	content: '';
+	width: 60px;
+	height: 28px;
+	position: absolute;
+	bottom: -32px;
+	right: 38%;
+	background: #333;
+	border-radius: 10px;
+}
+.dail{
+	content: '';
+	width: 5px;
+	height: 5px;
+	bottom: -20px;
+	right: 52px;
+	border-radius: 50%;
+	position: absolute;
+	background: #fff;
+}
+.minimize{
+	content: '';
+	width: 5px;
+	height: 5px;
+	bottom: -20px;
+	left: 55px;
+	border-radius: 50%;
+	position: absolute;
+	background: #fff;
+}
+.backside{
+	width: 252px;
+	height: 443px;
+	border: solid 15px #090856;
+	position: relative;
+	right: -535px;
+	top: -544px;
+	background-color: #090856;
+	border-bottom-width: 40px;
+	border-top-width: 40px;
+	border-radius: 36px;
+	box-shadow: 0px 3px 8px 0px;
+}
+.flash{
+	content: '';
+	width: 6px;
+	height: 16px;
+	top: -20px;
+	left: 11px;
+	border: 1px solid black;
+	position: absolute;
+	border-radius: 20px;
+	background-color: #DDCEB1;
+}
+.camera1{
+	content: '';
+	width: 23px;
+	height: 23px;
+	top: -23px;
+	left: 33px;
+	border: 1px solid #DFCA8B;
+	position: absolute;
+	border-radius: 50%;
+	background-color: #333;
+}
+.camera2{
+	content: '';
+	width: 23px;
+	height: 23px;
+	top: -23px;
+	left: 71px;
+	border: 1px solid #DFCA8B;
+	position: absolute;
+	border-radius: 50%;
+	background-color: #333;
+}
+.footer img{
+	width: 30px;
+	height: 20px;
+	bottom: 95px;
+	right: 116px;
+	position: absolute;
+}
+.footer-content{
+	font-size: 12px;
+	text-align: center;
+	color: #DFCA8B;
+	position: absolute;
+	bottom: 30px;
+}
+.title{
+	font-size: 35px;
+	position: absolute;
+	bottom: 200px;
+	left: 53px;
+}
+
+
